@@ -1,0 +1,548 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bM",
+				"bMoney"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"sk",
+				"skillRate"
+			],
+			[
+				"money",
+				"bMoneyRate"
+			],
+			[
+				"mu",
+				"mUpgrades"
+			],
+			[
+				"mU",
+				"mUpgrades"
+			],
+			[
+				"gWorker",
+				"gWorkersH1"
+			],
+			[
+				"n",
+				"number"
+			],
+			[
+				"gW",
+				"gWorkerN"
+			],
+			[
+				"worker",
+				"worker"
+			],
+			[
+				"g",
+				"gWorkers"
+			],
+			[
+				"mouse",
+				"mouseleave"
+			],
+			[
+				"s",
+				"s"
+			],
+			[
+				"visibl",
+				"visible"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"talent",
+				"talent"
+			],
+			[
+				"upgrade",
+				"upgradeIndex"
+			],
+			[
+				"checks",
+				"checksInterval"
+			],
+			[
+				"gWor",
+				"gWorker1Price"
+			],
+			[
+				"gCounter",
+				"gCounterRate"
+			],
+			[
+				"gw",
+				"gWorker1Number"
+			],
+			[
+				"progr",
+				"programmerPrice"
+			],
+			[
+				"prg",
+				"programmerPrice"
+			],
+			[
+				"programmer",
+				"programmerPrice"
+			],
+			[
+				"programm",
+				"programmerUpgradeIndex"
+			],
+			[
+				"progra",
+				"programmerUpgradeIndex"
+			],
+			[
+				"skill",
+				"skillIdle"
+			],
+			[
+				"to",
+				"toFixed"
+			],
+			[
+				"bMoney",
+				"BmoneyIdle"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"padding",
+				"padding"
+			],
+			[
+				"gameC",
+				"gameClicker"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"update",
+				"updateIndex"
+			],
+			[
+				"backgro",
+				"background-color"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"i",
+				"iframe"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"font-",
+				"font-variant"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"10px",
+				"10px"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"bac",
+				"background-position"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"f",
+				"font-style"
+			],
+			[
+				"ne",
+				"newItem"
+			],
+			[
+				"for",
+				"forward"
+			],
+			[
+				"PAS",
+				"PastActivities"
+			],
+			[
+				"Past",
+				"PastActivity"
+			],
+			[
+				"PAs",
+				"PastActivity"
+			],
+			[
+				"Pas",
+				"PastActivity"
+			],
+			[
+				"facebook",
+				"facebookLink"
+			],
+			[
+				"video",
+				"videoLink"
+			],
+			[
+				"vi",
+				"videoLink"
+			],
+			[
+				"A",
+				"PastActivities"
+			],
+			[
+				"new",
+				"newflex-item"
+			],
+			[
+				"backg",
+				"background-image"
+			],
+			[
+				"fill",
+				"fillActivities"
+			],
+			[
+				"min-",
+				"min-width"
+			],
+			[
+				"w",
+				"width"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Alexandre/Desktop/MPU website/index.html",
+		"/C/Users/Alexandre/Desktop/MPU website/stylesheet.css",
+		"/C/Users/Alexandre/Desktop/MPU website/items.js",
+		"/C/Users/Alexandre/Desktop/MPU website/style.js",
+		"/C/Users/Alexandre/Documents/GitHub/metaIncrement/main.js",
+		"/C/Users/Alexandre/Documents/GitHub/metaIncrement/stylesheet.css",
+		"/C/Users/Alexandre/Documents/GitHub/metaIncrement/objects.js",
+		"/C/Users/Alexandre/Documents/GitHub/metaIncrement/index.html",
+		"/C/Users/Alexandre/Desktop/MPU website/fitvids.js",
+		"/C/Users/Alexandre/Desktop/MPU website/open-iconic-master/README.md",
+		"/C/Users/Alexandre/Desktop/MPU website/css/Glyphter.css",
+		"/C/Users/Alexandre/Desktop/MPU website/style_safe.js",
+		"/C/Users/Alexandre/Desktop/MPU website/pastActivities.js",
+		"/C/Users/Alexandre/Desktop/index.html",
+		"/C/Users/Alexandre/Desktop/stylesheet.css",
+		"/C/Users/Alexandre/Desktop/style.js"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"30",
+			"money",
+			"programmer",
+			"worker",
+			"thing",
+			".id",
+			"mUpgrade",
+			"mU",
+			"boobleAdcentsTab",
+			"b8",
+			"bMoneyRate",
+			"gCounter",
+			"gCounterRate",
+			"gCounter",
+			"60",
+			"filli",
+			"display: block;",
+			"document.getElementById",
+			"Idle",
+			"idle",
+			"helper",
+			"upgradeprogrammer",
+			"upgradepro",
+			"skillreq",
+			"upgrade",
+			"update",
+			"gameArea",
+			"2",
+			"css",
+			"*****",
+			"textEditor",
+			"/***************************",
+			"textEditor",
+			"envergure",
+			"mpu",
+			"height: 100vh;",
+			"png",
+			"belmont",
+			"000",
+			"fff",
+			"contact",
+			"0",
+			"\"",
+			"8",
+			"9",
+			"overfl",
+			"400",
+			"255",
+			"0",
+			"10",
+			"6",
+			"8",
+			"000",
+			"10",
+			"0A2D43",
+			"EVE",
+			"Événement Facebook",
+			"Evenement",
+			"000",
+			"fff",
+			"000",
+			"888",
+			"255",
+			"750",
+			"563",
+			"750",
+			"z-index",
+			"100vh",
+			"black",
+			"value",
+			"text",
+			"z",
+			"Muli",
+			"off.",
+			"..off",
+			"one",
+			"click",
+			"empty",
+			"remove",
+			"375",
+			"500",
+			"Edited",
+			"PastActivity",
+			"PastActivities",
+			"\"\";\n",
+			";\n",
+			"block",
+			"}"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"#2E2A28",
+			"Open Sans",
+			"off().",
+			".off",
+			".off.one",
+			"one('click', ",
+			"remove",
+			"empty",
+			"563",
+			"750",
+			"MPU",
+			"Item",
+			"Items"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
