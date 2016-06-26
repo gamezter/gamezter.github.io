@@ -1,0 +1,60 @@
+*{
+	margin: 0px;
+}
+.viewport{
+	width: 100%;
+}
+.background{
+	display:block;
+	position:relative;
+	min-height: 800px;
+	height: 100vh;
+}
+.content{
+	display:block;
+	width: 1440px;
+	height:100%;
+}
+.nav-wrapper{
+	position: fixed;
+	margin-left: 50px;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	width: 0px;
+}
+.nav{
+	position: relative;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	min-height: 800px;
+	height: 100vh;
+	width: 200px;
+	z-index: 100;
+	overflow: hidden;
+}
+.white{
+	color: #2645FF;
+}
+.blue{
+	color: white;
+}
+.nav .nav-content{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	left: 0px;
+	top: 0px;
+}
+.nav .nav-content H1{
+	position: absolute;
+	text-align: right;
+	right: 0px;
+	top: 55px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 32px;
+	font-weight: 700;
+
+}
