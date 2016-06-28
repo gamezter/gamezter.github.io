@@ -29,6 +29,9 @@
 }
 #intro img{
 	position: relative;
+	top: 100px;
+	right: 100px;
+	float: right;
 }
 .nav-wrapper{
 	position: fixed;
