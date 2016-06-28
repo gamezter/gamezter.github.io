@@ -80,13 +80,20 @@
 	position: absolute;
 	width: 100%;
 	bottom: 0px;
-	padding-bottom: 500px;
 }
 .nav .nav-content .bottom ul{
 	list-style-type: none;
 	font-size: 18px;
-	text-align: right; 
+	text-align: right;
 }
 .nav .nav-content .bottom li a:hover{
-	text-decoration: underline;
+	text-decoration: underline !important;
+}
+.nav .nav-content .bottom .pages{
+	padding-bottom: 500px;
+}
+.nav .nav-content .bottom .links{
+	padding-bottom: 50px;
+	text-decoration: none;
+	color: inherit;
 }
