@@ -86,11 +86,14 @@
 	font-size: 18px;
 	text-align: right;
 }
+.nav .nav-content .bottom ul li{
+	margin-bottom: 5px;
+}
 .nav .nav-content .bottom li a:hover{
 	text-decoration: underline !important;
 }
 .nav .nav-content .bottom .pages{
-	padding-bottom: 500px;
+	padding-bottom: 400px;
 }
 .nav .nav-content .bottom .links{
 	padding-bottom: 50px;
