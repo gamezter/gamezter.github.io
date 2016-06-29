@@ -7,7 +7,7 @@
 .background{
 	display:block;
 	position:relative;
-	min-height: 800px;
+	min-height: 400px;
 	height: 100vh;
 }
 .content{
@@ -47,7 +47,7 @@
 	right: 0px;
 	bottom: 0px;
 	left: 0px;
-	min-height: 800px;
+	min-height: 400px;
 	height: 100vh;
 	width: 200px;
 	z-index: 100;
