@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded',function(){
 		var sides = window.innerWidth - content[i].offsetWidth;
 		content[i].style.marginLeft = (sides / 2) + "px";
 		navWrapper[0].style.marginLeft = (sides / 2) + "px";
-	}
+		}
 	}
 
 	document.onscroll = function(){
@@ -35,6 +35,20 @@ document.addEventListener('DOMContentLoaded',function(){
 			navs[i].style.transform = "translateY(" + (-top) + "px)";
 			navContent[i].style.transform = "translateY(" + (-i * height + top) + "px)";
 		}
-
 	}
+	$(".introButton").click(function() {
+    	$('html,body').animate({
+        	scrollTop: $("#intro").offset().top},
+        	'slow');
+	});
+	$(".skillsButton").click(function() {
+    	$('html,body').animate({
+        	scrollTop: $("#skills").offset().top},
+        	'slow');
+	});
+	$(".projectsButton").click(function() {
+    	$('html,body').animate({
+        	scrollTop: $("#projects").offset().top},
+        	'slow');
+	});
 });
