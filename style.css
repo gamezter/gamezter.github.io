@@ -87,6 +87,7 @@
 }
 .nav .nav-content .bottom ul li{
 	margin-bottom: 5px;
+	cursor: pointer;
 }
 .nav .nav-content .bottom li a:hover{
 	text-decoration: underline !important;
