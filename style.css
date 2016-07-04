@@ -14,15 +14,50 @@
 	max-width: 1440px;
 	height:100%;
 }
-.left-side{
+#space{
 	position: relative;
-	width: 50%;
+	width: 200px;
 	height: 100%;
 	float: left;
 }
+.left-side{
+	position: relative;
+	width: calc(50% - 100px);
+	height: 100%;
+	float: left;
+}
+.left-side H1{
+	position: relative;
+	top: 150px;
+	left: 200px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 36px;
+	font-weight: 700;
+	color: #2645FF;
+}
+.left-side H2{
+	position: relative;
+	top: 175px;
+	left: 200px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 32px;
+	font-weight: 700;
+	color: #2645FF;
+}
+.left-side #ticker{
+	display: inline-block;
+	vertical-align: top;
+	overflow: hidden;
+	position: relative;
+	height: 45px;
+	width: 500px;
+}
+.left-side #ticker .item{
+	position: absolute;
+}
 .right-side{
 	position: relative;
-	width: 50%;
+	width: calc(50% - 100px);
 	height: 100%;
 	float: right;
 }

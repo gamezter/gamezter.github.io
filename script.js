@@ -1,7 +1,20 @@
-document.addEventListener('DOMContentLoaded',function(){
+$(document).ready(function(){
 	var navs = document.getElementsByClassName("nav");
 	var navContent = document.getElementsByClassName("nav-content");
 	var height = navs[0].offsetHeight;
+
+	var list = ["building nice websites.", "making fun games.", "solving hard problems.", "going to pub quiz night.", "working with talented people.", "playing well designed games.", "learning new things."];
+	var currentId = 1;
+	var current = $("<div class='item'></div>").html(list[currentId]);
+	$("#ticker").prepend(current);
+
+	setInterval(function(){
+		currentId = (currentId + 1) % list.length;
+		var next = $("<div class='item' style='top: -45px'></div>").html(list[currentId]);
+		$("#ticker").prepend(next);
+		next.animate({top : "0px"}, 'slow');
+		current.animate({top: "45px"}, 'slow',function(){current.remove(); current = next;});
+	}, 3000);
 
 	for(var i = 0; i < navs.length; i++){
 			navContent[i].style.transform = "translateY(" + (-i * height) + "px)"; 
