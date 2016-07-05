@@ -3,7 +3,7 @@ $(document).ready(function(){
 	var navContent = document.getElementsByClassName("nav-content");
 	var height = window.innerHeight;
 
-	var list = ["building nice websites.", "making fun games.", "solving hard problems.", "going to pub quiz nights.", "working with talented people.", "playing well designed games.", "learning new things."];
+	var list = ["building nice websites.", "making fun games.", "solving difficult problems.", "going to pub quiz nights.", "working with talented people.", "playing well designed games.", "learning new things."];
 	var currentId = 1;
 	var current = $("<div class='item'></div>").html(list[currentId]);
 	$("#ticker").prepend(current);
