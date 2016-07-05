@@ -139,3 +139,93 @@
 	text-decoration: none;
 	color: inherit;
 }
+
+@media screen and (max-width: 1440px) {
+
+	#space{
+		display: none;
+	}
+	.left-side{
+		width: 50%;
+	}
+	.left-side H1{
+		left: 100px;
+	}
+	.left-side H2{
+		left: 100px;
+	}
+	.right-side{
+		width: 50%;
+	}
+	.nav{
+		position: relative;
+		top: 0px;
+		right: 0px;
+		bottom: 0px;
+		left: 0px;
+		width: 100vw;
+		height: 100vh;
+		min-height: 0px;
+		z-index: 100;
+		overflow: hidden;
+	}
+	.nav .nav-content{
+		position: relative;
+		height: 75px;
+		width: 100vw;
+		left: 0px;
+		top: 0px;
+	}
+	.white .nav-content{
+		background-color: white;
+	}
+	.blue .nav-content{
+		background-color: #2645FF;
+	}
+	.nav .nav-content H1{
+		display: block;
+		position: relative;
+		font-size: 28px;
+		top: 15px;
+		left: 50px;
+		float: left;
+	}
+	.nav .nav-content br{
+		display: none;
+	}
+	.nav .nav-content .bottom{
+		display: block;
+		position: relative;
+		height: 100%;
+		width: 100%;
+		left: 0px;
+		right: 0px;
+	}
+	.nav .nav-content .bottom ul{
+		display: inline;
+		list-style-type: none;
+		font-size: 18px;
+		text-align: none;
+	}
+	.nav .nav-content .bottom ul li{
+		display: inline;
+		margin-left: 20px;
+		margin-right: 20px;
+		margin-bottom: 0px;
+	}
+	.nav .nav-content .bottom .pages{
+		display: inline-block;
+		width: auto;
+		position: relative;
+		left: 50px;
+		float: left;
+		top: 25px;
+	}
+	.nav .nav-content .bottom .links{
+		display: inline-block;
+		width: auto;
+		position: relative;
+		float: right;
+		top: 25px;
+	}
+}

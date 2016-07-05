@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	var navs = document.getElementsByClassName("nav");
 	var navContent = document.getElementsByClassName("nav-content");
-	var height = navs[0].offsetHeight;
+	var height = window.innerHeight;
 
 	var list = ["building nice websites.", "making fun games.", "solving hard problems.", "going to pub quiz nights.", "working with talented people.", "playing well designed games.", "learning new things."];
 	var currentId = 1;
@@ -29,16 +29,20 @@ $(document).ready(function(){
 	}
 
 	window.onresize = function(){
-		height = navs[0].offsetHeight;
+		height = window.innerHeight;
 		var top = window.scrollY;
 		for(var i = 0; i < navs.length; i++){
 		navContent[i].style.transform = "translateY(" + (-i * height + top) + "px)"; 
 		}
 
 		for(var i = 0; i < content.length; i++){
-		var sides = window.innerWidth - content[i].offsetWidth;
-		content[i].style.marginLeft = (sides / 2) + "px";
-		navWrapper[0].style.marginLeft = (sides / 2) + "px";
+			var sides = window.innerWidth - content[i].offsetWidth;
+			content[i].style.marginLeft = (sides / 2) + "px";
+			if(window.innerWidth > 1440){
+				navWrapper[0].style.marginLeft = (sides / 2) + "px";
+			}else{
+				navWrapper[0].style.marginLeft = "0px";
+			}
 		}
 	}
 
