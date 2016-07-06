@@ -44,6 +44,14 @@
 	font-weight: 700;
 	color: #2645FF;
 }
+.left-side p{
+	position: relative;
+	top: 250px;
+	left: 200px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+}
 .left-side #ticker{
 	display: inline-block;
 	vertical-align: top;
@@ -121,6 +129,7 @@
 	text-align: right;
 }
 .nav .nav-content .bottom ul li{
+	font-family: 'Roboto', sans-serif;
 	margin-bottom: 5px;
 	cursor: pointer;
 }
@@ -152,6 +161,9 @@
 		left: 100px;
 	}
 	.left-side H2{
+		left: 100px;
+	}
+	.left-side p{
 		left: 100px;
 	}
 	.right-side{
