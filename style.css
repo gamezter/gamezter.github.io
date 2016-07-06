@@ -14,7 +14,8 @@
 	max-width: 1440px;
 	height:100%;
 }
-#space{
+.space{
+	display: inline-block;
 	position: relative;
 	width: 200px;
 	height: 100%;
@@ -69,11 +70,72 @@
 	height: 100%;
 	float: right;
 }
-#intro img{
+.right-side img{
 	position: relative;
 	top: 100px;
 	right: 100px;
 	float: right;
+}
+.fb-container{
+	display: inline-flex;
+	flex-wrap: wrap;
+	position: relative;
+	width: calc(100% - 200px);
+	box-sizing: border-box;
+	padding: 50px;
+	height: 100%;
+	float: right;
+}
+.fb-item{
+	display: block;
+	position: relative;
+	overflow: hidden;
+	flex-grow: 1;
+	flex-basis: 24%;
+	height: 50%;
+	z-index: 6;
+}
+.fb-item:hover .fb-mask{
+	left: 100%;
+}
+.fb-item:hover .fb-mask H1{
+	left: -100%; 
+}
+.fb-mask{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	background-color: #2645FF;
+	background-clip:content-box;
+	transition: left 0.5s;
+	left:0px;
+	z-index: 5;
+}
+.fb-mask H1{
+	position: relative;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	font-size: 36px;
+	font-weight: 700;
+	color: white;
+	text-align: center;
+	left:0px;
+	transition: left 0.5s;
+}
+.fb-content{
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	z-index: 4;
+}
+.fb-content H1{
+	position: relative;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 36px;
+	font-weight: 700;
+	color: black;
+	text-align: center;
 }
 .nav-wrapper{
 	position: fixed;
@@ -151,11 +213,15 @@
 
 @media screen and (max-width: 1440px) {
 
-	#space{
-		display: none;
+	.space{
+		display: block;
+		width: 100%;
+		height: 75px;
+		float: left;
 	}
 	.left-side{
 		width: 50%;
+		height: calc(100% - 75px);
 	}
 	.left-side H1{
 		left: 100px;
@@ -168,6 +234,11 @@
 	}
 	.right-side{
 		width: 50%;
+		height: calc(100% - 75px);
+	}
+	.fb-container{
+		width: 100%;
+		height: calc(100% - 75px);
 	}
 	.nav{
 		position: relative;
