@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 52 52">
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="280" viewBox="0 0 100 100">
 <title>Five Pointed Star</title>
-<path fill="none" stroke="#FFF" stroke-width="2" d="M 26,1 L 32,18 H 51 L 37,29 43,46 26,36 9,46 15,29 1,18 H20z"/>
+<path fill="none" stroke="#FFF" stroke-width="2" d="
+M 50.000 69.000
+L 79.389 90.451
+L 68.070 55.871
+L 97.553 34.549
+L 61.168 34.629
+L 50.000 0.000
+L 38.832 34.629
+L 2.447 34.549
+L 31.930 55.871
+L 20.611 90.451
+L 50.000 69.000
+"/>
 </svg>
