@@ -17,7 +17,7 @@ $(document).ready(function(){
 	}, 3000);
 
 	for(var i = 0; i < navs.length; i++){
-			navContent[i].style.transform = "translateY(" + (-i * height) + "px)"; 
+		navContent[i].style.transform = "translateY(" + (-i * height) + "px)"; 
 	}
 
 	var content = document.getElementsByClassName("content");
@@ -32,15 +32,16 @@ $(document).ready(function(){
 		height = window.innerHeight;
 		var top = window.scrollY;
 		for(var i = 0; i < navs.length; i++){
-		navContent[i].style.transform = "translateY(" + (-i * height + top) + "px)"; 
+			navContent[i].style.transform = "translateY(" + (-i * height + top) + "px)"; 
 		}
 
 		for(var i = 0; i < content.length; i++){
 			var sides = window.innerWidth - content[i].offsetWidth;
-			content[i].style.marginLeft = (sides / 2) + "px";
 			if(window.innerWidth > 1440){
+				content[i].style.marginLeft = (sides / 2) + "px";
 				navWrapper[0].style.marginLeft = (sides / 2) + "px";
 			}else{
+				content[i].style.marginLeft = "0px";
 				navWrapper[0].style.marginLeft = "0px";
 			}
 		}

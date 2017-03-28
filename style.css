@@ -108,7 +108,8 @@
 }
 .dotted-line{
 	display: inline-block;
-	width: 33%;
+	box-sizing: border-box;
+	width: 33.33333333%;
 	height: 100%;
 	border-right: 2px dashed white;
 }
@@ -271,7 +272,7 @@
 		width: 50%;
 		height: calc(100% - 75px);
 	}
-	.fb-container{
+	.container{
 		width: 100%;
 		height: calc(100% - 75px);
 	}
