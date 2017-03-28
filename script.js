@@ -17,7 +17,8 @@ $(document).ready(function(){
 	}, 3000);
 
 	for(var i = 0; i < navs.length; i++){
-		navContent[i].style.transform = "translateY(" + (-i * height) + "px)"; 
+		navs[i].style.transform = "translateY(" + (-window.scrollY) + "px)";
+		navContent[i].style.transform = "translateY(" + (-i * height + window.scrollY) + "px)";
 	}
 
 	var content = document.getElementsByClassName("content");
