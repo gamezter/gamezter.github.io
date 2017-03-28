@@ -86,16 +86,7 @@
 #skills{
 	min-height: 900px;
 }
-.fb-container{
-	/*display: inline-flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	position: relative;
-	width: calc(100% - 200px);
-	box-sizing: border-box;
-	padding: 50px;
-	height: 100%;
-	float: right;*/
+.container{
 	display: inline-block;
 	position: relative;
 	width: calc(100% - 200px);
@@ -104,7 +95,18 @@
 	height: 100%;
 	float: right;
 }
-.skill-lvl{
+#skill-levels{
+	display: block;
+	position: relative;
+	height: 100px;
+	background-color: white;
+}
+#skills-container{
+	display: block;
+	width: 100%;
+	height: calc(100% - 100px);
+}
+.dotted-line{
 	display: inline-block;
 	width: 33%;
 	height: 100%;
@@ -302,7 +304,7 @@
 		position: relative;
 		font-size: 28px;
 		top: 15px;
-		left: 50px;
+		left: 100px;
 		float: left;
 	}
 	.nav .nav-content br{
@@ -332,16 +334,11 @@
 		display: inline-block;
 		width: auto;
 		position: relative;
-		left: 50px;
+		left: 100px;
 		float: left;
 		top: 25px;
 	}
 	.nav .nav-content .bottom .links{
-		display: inline-block;
-		width: auto;
-		position: relative;
-		float: right;
-		top: 25px;
-		right: 50px;
+		display: none;
 	}
 }
