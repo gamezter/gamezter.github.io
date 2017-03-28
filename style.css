@@ -87,7 +87,7 @@
 	min-height: 900px;
 }
 .fb-container{
-	display: inline-flex;
+	/*display: inline-flex;
 	flex-direction: column;
 	flex-wrap: wrap;
 	position: relative;
@@ -95,9 +95,22 @@
 	box-sizing: border-box;
 	padding: 50px;
 	height: 100%;
+	float: right;*/
+	display: inline-block;
+	position: relative;
+	width: calc(100% - 200px);
+	box-sizing: border-box;
+	padding: 50px;
+	height: 100%;
 	float: right;
 }
-.fb-item{
+.skill-lvl{
+	display: inline-block;
+	width: 33%;
+	height: 100%;
+	border-right: 2px dashed white;
+}
+/*.fb-item{
 	display: block;
 	position: relative;
 	overflow: hidden;
@@ -156,7 +169,7 @@
 	left: 100%;
 	transition: left 0.5s;
 	text-align: center;
-}
+}*/
 .nav-wrapper{
 	position: fixed;
 	top: 0px;
