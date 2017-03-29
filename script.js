@@ -16,6 +16,30 @@ $(document).ready(function(){
 		current.animate({top: "45px"}, 'slow',function(){current.remove(); current = next;});
 	}, 3000);
 
+	var t;
+	var firstTransparent = -100;
+	var white = -50;
+	var secondTransparent = 0;
+
+	function animation(){
+		if(white < 150){
+			$(".star-container").css({
+				"border-image":"linear-gradient(to bottom right, transparent "+ firstTransparent +"%, white "+ white + "%, transparent "+ secondTransparent + "%)",
+				"border-image-slice":"1"});
+		}else{
+			firstTransparent = -100;
+			white = -50;
+			secondTransparent = 0;
+		}
+		
+		firstTransparent++;
+		white++;
+		secondTransparent++;
+		t = setTimeout(animation, 10);
+	}
+	animation();
+
+
 	for(var i = 0; i < navs.length; i++){
 		navs[i].style.transform = "translateY(" + (-window.scrollY) + "px)";
 		navContent[i].style.transform = "translateY(" + (-i * height + window.scrollY) + "px)";
