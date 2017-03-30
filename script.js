@@ -22,19 +22,20 @@ $(document).ready(function(){
 	var secondTransparent = 0;
 
 	function animation(){
-		if(white < 150){
-			$(".star-container").css({
-				"border-image":"linear-gradient(to bottom right, transparent "+ firstTransparent +"%, white "+ white + "%, transparent "+ secondTransparent + "%)",
-				"border-image-slice":"1"});
+		$(".star-container").css({
+			"border-image":"linear-gradient(to bottom right, transparent "+ firstTransparent +"%, white "+ white + "%, transparent "+ secondTransparent + "%)",
+			"border-image-slice":"1"});
+		if(white < 450){
+			firstTransparent++;
+			white++;
+			secondTransparent++;
 		}else{
 			firstTransparent = -100;
 			white = -50;
 			secondTransparent = 0;
 		}
 		
-		firstTransparent++;
-		white++;
-		secondTransparent++;
+		
 		t = setTimeout(animation, 10);
 	}
 	animation();
